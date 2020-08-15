@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
 {
     public class ItemController : ApiController
     {
-        private DBModel db = new DBModel();
+        private DBModels db = new DBModels();
 
         // GET: api/Item
         public IQueryable<Item> GetItems()

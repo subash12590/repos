@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
 {
     public class OrderController : ApiController
     {
-        private DBModel db = new DBModel();
+        private DBModels db = new DBModels();
 
         // GET: api/Order
         public System.Object GetOrders()

@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
 {
     public class CustomerController : ApiController
     {
-        private DBModel db = new DBModel();
+        private DBModels db = new DBModels();
 
         // GET: api/Customer
         public IQueryable<Customer> GetCustomers()
